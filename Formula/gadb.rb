@@ -2,16 +2,16 @@
 class Gadb < Formula
   desc "Golang ADB wrapper providing all ADB features and more"
   homepage "https://github.com/esafirm/homebrew-tap"
-  version "1.1.0"
+  version "1.2.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/esafirm/gadb/releases/download/1.1.0/gadb_1.1.0_Darwin_x86_64.tar.gz"
-    sha256 "84a77fa6ddcca2f20e0e6f29df27e9bb0ff48188a547ad56c058882926b70536"
+    url "https://github.com/esafirm/gadb/releases/download/1.2.0/gadb_1.2.0_Darwin_x86_64.tar.gz"
+    sha256 "0a7ddabf60602f8fbcb3e81a27522a537c48ee796a641649f8ed88372c19f8c5"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/esafirm/gadb/releases/download/1.1.0/gadb_1.1.0_Linux_x86_64.tar.gz"
-      sha256 "eddc6448dcf3b83f9c396ad7d6507d69445eab901c184200347d7436a3874bbb"
+      url "https://github.com/esafirm/gadb/releases/download/1.2.0/gadb_1.2.0_Linux_x86_64.tar.gz"
+      sha256 "fda5dd553058b400a7a29ac8a27b2305c8d7ea29d03bf734ee540fd6c03cac83"
     end
   end
 
